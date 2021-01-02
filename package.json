@@ -1,0 +1,24 @@
+{
+  "name": "rss-filter-server",
+  "description": "A simple web server that allows to filter RSS items from a feed on the fly",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "is-absolute-url": "^3.0.3",
+    "lodash": "^4.17.20",
+    "nanomatch": "^1.2.13",
+    "node-fetch": "^2.6.1",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
