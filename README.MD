@@ -21,5 +21,5 @@ The URL is divided in three parts:
 The Docker container for this project is deployed on Docker Hub, so you just need to run:
 
 ```bash
-docker pull smartineau/rss-filter-server
+docker run -p 8080:8080 smartineau/rss-filter-server
 ```
