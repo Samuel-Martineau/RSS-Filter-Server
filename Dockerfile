@@ -1,5 +1,7 @@
 FROM node:15
 
+LABEL org.opencontainers.image.source https://github.com/Samuel-Martineau/RSS-Filter-Server
+
 WORKDIR /usr/src/app
 
 COPY package.json .

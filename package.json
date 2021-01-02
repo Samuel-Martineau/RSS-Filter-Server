@@ -1,7 +1,7 @@
 {
   "name": "rss-filter-server",
   "description": "A simple web server that allows to filter RSS items from a feed on the fly",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
